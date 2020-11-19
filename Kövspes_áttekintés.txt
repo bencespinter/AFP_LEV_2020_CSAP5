@@ -1,0 +1,6 @@
+A számítógépes játék, felhasználói felülettel való folyamatos kölcsönhatást foglal magában, valósidejű vizuális visszajelzést hoz létre a  megjelenítő eszközön, valamint további érzékszerveinkre is hat. Az 1980-as évek óta a videójátékok a szórakoztatóipar egyre fontosabb részévé váltak, és akár tekinthetők a művészetek egyik formájának is.
+Az alalkalmazásunk célja a gyerekek-tanulók képességfejlesztése játékos formában.
+A játék során a kreatív gondolkodást és az ügyesség nagy szerepet kap.
+Az irányított hősnek különböző akadályok, ellenfelek legyőzésével és platformok közti ugrálással / haladással kell eljutnia a pálya végéig. Az egyes pályák során különböző kincseket és egyéb gyűjtögetni valókat szedhetünk össze a magasabb pontszám érdekében.
+A pályákon lehetnek különböző ellenségek, melyeket le kell győzni.
+Minél több kincset szerez és ellenfelet győz le a játékos, annál több pontot ér el.
