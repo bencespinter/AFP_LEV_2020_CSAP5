@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
+    public Text myText;
+    
+    
     // Update is called once per frame
     void Update()
     {
@@ -53,10 +57,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Coin"))
+        myText = GameObject.Find("CollectedGems").GetComponent<Text>();
+        if (other.gameObject.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
             coincount++;
+            myText.text = "Gems : " + coincount;
         }
 
         if (other.gameObject.CompareTag("Respawn"))
