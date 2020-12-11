@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
+    public int coincount = 0;
     public Animator animator;
     public float runSpeed = 40f;
     float horizontalMove = 0f;
@@ -48,4 +50,22 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+            coincount++;
+        }
+
+        if (other.gameObject.CompareTag("Respawn"))
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+            coincount = 0;
+        }
+    }
+
+   
 }
