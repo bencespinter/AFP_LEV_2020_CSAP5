@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public CharacterController2D controller;
     public int coincount = 0;
     public Animator animator;
@@ -16,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
     public Text myText;
-    
-    
     // Update is called once per frame
     void Update()
     {
@@ -39,12 +36,10 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
     }
-
     public void OnCrouching (bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
-
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
@@ -54,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         myText = GameObject.Find("CollectedGems").GetComponent<Text>();
@@ -64,14 +58,11 @@ public class PlayerMovement : MonoBehaviour
             coincount++;
             myText.text = "Gems : " + coincount;
         }
-
         if (other.gameObject.CompareTag("Respawn"))
         {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
             coincount = 0;
         }
-    }
-
-   
+    }   
 }
