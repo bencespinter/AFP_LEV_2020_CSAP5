@@ -14,13 +14,9 @@ public class RestartTrigger : MonoBehaviour
             Time.timeScale = 0f;
         }
     }
-
-
     IEnumerator ReloadScene()
     {
         yield return new WaitForSecondsRealtime(0.5f);
         SceneManager.LoadScene("SampleScene");
-
-
     }
 }
