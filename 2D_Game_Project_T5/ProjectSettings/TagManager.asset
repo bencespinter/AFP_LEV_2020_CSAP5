@@ -6,7 +6,10 @@ TagManager:
   tags:
   - Coin
   - Sign
+<<<<<<< HEAD
   - Opossum
+=======
+>>>>>>> main
   layers:
   - Default
   - TransparentFX

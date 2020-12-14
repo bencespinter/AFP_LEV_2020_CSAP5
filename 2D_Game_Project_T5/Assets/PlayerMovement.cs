@@ -35,7 +35,11 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
     }
+<<<<<<< HEAD
     public void OnCrouching(bool isCrouching)
+=======
+    public void OnCrouching (bool isCrouching)
+>>>>>>> main
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
@@ -63,5 +67,9 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(scene.name);
             coincount = 0;
         }
+<<<<<<< HEAD
     }
+=======
+    }   
+>>>>>>> main
 }
