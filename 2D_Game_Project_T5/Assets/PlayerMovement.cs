@@ -26,17 +26,16 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", true);
         }
-
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
-        } 
-        else if ( Input.GetButtonUp("Crouch"))
+        }
+        else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
         }
     }
-    public void OnCrouching (bool isCrouching)
+    public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
@@ -64,5 +63,5 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(scene.name);
             coincount = 0;
         }
-    }   
+    }
 }
