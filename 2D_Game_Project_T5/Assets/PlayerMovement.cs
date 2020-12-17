@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-    public Text myText;   
+    public Text myText;
     // Update is called once per frame
     void Update()
     {
@@ -30,13 +30,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
-        } 
-        else if ( Input.GetButtonUp("Crouch"))
+        }
+        else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
         }
     }
-    public void OnCrouching (bool isCrouching)
+    public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
@@ -58,12 +58,11 @@ public class PlayerMovement : MonoBehaviour
             coincount++;
             myText.text = "Gems : " + coincount;
         }
-
-        if (other.gameObject.CompareTag("Respawn"))
+        else if (other.gameObject.CompareTag("Respawn") || other.gameObject.CompareTag("enemy"))
         {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
             coincount = 0;
         }
-    }   
+    }
 }
