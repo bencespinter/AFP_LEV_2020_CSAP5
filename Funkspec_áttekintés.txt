@@ -1,0 +1,9 @@
+Ebben a fejezetben röviden ismertetni kell a projektünk egészét.
+
+Egy olyan rendszert fejlesztünk, ami segíti a fiatalok képességfejlesztését játékos formában.
+Célunk, hogy a gyerekek a lehetőleg kreatívan gondolkodjanak és az fejlesztünk az ügyességüket.
+Mindezt játékos formában ezáltal színesebbé válik a fejlődés. 
+Célunk hogy minél több platformon hozzá lehessen férni. 
+A fejlesztés ingyenes lesz, ezért bárki bárhonnan le tudja majd tölteni.
+Különböző szinteken eltérő nehézségű pályákon, ellenség beiktatásával és kincs szerzéssel próbára teheti a tudását. 
+Minden pélya után az adott személy láthatja, hogy mennyi pontot szerzett.
