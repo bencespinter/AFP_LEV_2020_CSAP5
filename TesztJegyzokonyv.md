@@ -34,3 +34,37 @@ Tesztelés célja a projektben megtalálható funkcionális és design hibák fe
 - Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert. 
 - Az **team5** projektcsapat felelős a tesztadatok előállításáért.
 
+## 2 Szükséges erőforrások
+- Windows alapú rendszer
+- src mappa csatolása
+
+### 2.1 Feladatkörök és felelősségek (tesztcsapat meghatározása)
+| Feladatkör  |  Felelősség/tevékenység |  Személy  |
+|---|---|---|
+|  **Tesztelő, Teszt-koordinátor:** |  A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Teszt terv készítése.  A tesztterv jóváhagyatása a projektmenedzserrel.  Teszt forgatókönyvek létrehozása  Inkonzisztenciák kezelése.  Helyes és időbeni hibakezelés.  Szükség esetén problémák eszkalálása a projekt menedzsernek.  Végső riport készítése.  Teszt dokumentum archiválása.  Az észrevételek státuszának követése, ill. dokumentálása | név  |
+| **Szakértő:**  |  A szakértő az észrevételek elemzi és megoldást javasol. | név |
+|**Projektvezető:**| Teszt terv jóváhagyása  Teszt forgatókönyv (testscript)| név |
+
+### 2.2 Tesztkörnyezet
+| Környezet neve és feladata  |  A hozzáférés módja | Konfiguráció  |
+|---|---|---|
+| Unity | Offline - Szabad szoftver | Windows 10 - alapértemezett beállítások |
+| Visual Studio  | Offline - Szabad szoftver | Windows 10 - alapértemezett beállítások |
+
+### 2.3 Tesztadatok
+A teszt végrehajtásához szükséges rekordok (tesztadatok) száma: 3
+A tesztadatok elkészítéséért és feltöltéséért felelős személy: név
+
+
+### 2.4 Leszállítandó teszt dokumentumok
+Az összes teszt dokumentáció és leszállítandó a következő helyen érhető el: [LINK](https://github.com/bencespinter/AFP_LEV_2020_CSAP5)
+
+| Cím  |  Felelős személy | Szállítási gyakorisága  | Szállítás módja |
+|---|---|---|---|
+|  **GUI teszt - IDL** |  név |  Egyszeri |  github repository |
+
+
+### 2.5 Tesztelési eszközök
+- Unity *Fejlesztői környezet* [LINK](https://unity.com/)
+- Visual Studio *Fejlesztői környezet* [LINK](https://visualstudio.microsoft.com/)
+
