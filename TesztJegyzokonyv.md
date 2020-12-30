@@ -149,3 +149,104 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 - Technikai, a teszt forgatókönyvben leírtak szerint.
 - A projekt menedzser jóváhagyása a teszt leszállítandókra
 
+## 5 Tesztjegyzőkönyv
+### 5.1 Tesztelési jegyzőkönyv - 1. 
+
+|   |   |
+|---|---|
+| A teszt-eset leírás és célja:  | GUI, megfelelő megjelenítés |
+| A tesztelt folyamat/funkció leírása:  |  Menü, ingame  |
+| A tesztelés előfeltételei:  | - |
+| A tesztelés dátuma és időpontja:  | 2020.12.12. |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg |
+| A tesztet végző személy(ek):  | Kis Szandra |
+| A tesztelt rendszer beállításai:  | Standard |
+| A teszt-eset elvárt eredménye:  | Sikeres |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | A menüpontok a tervezettként funkcionálnak, minden végzi a dolgát, hibát nem fedeztem fel. |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: | Kis Szandra |
+|  Szervezeti egység/ beosztás: | Team member |
+|  Dátum: | 2020.12.13. |
+
+### 5.2 Tesztelési jegyzőkönyv - 2. 
+
+|   |   |
+|---|---|
+| A teszt-eset leírás és célja:  | Gameplay, hibák felülvizsgálata |
+| A tesztelt folyamat/funkció leírása:  | Enemies, powerups, movement |
+| A tesztelés előfeltételei:  | - |
+| A tesztelés dátuma és időpontja:  | 2020.12.12 |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg |
+| A tesztet végző személy(ek):  | Csathó Zsolt |
+| A tesztelt rendszer beállításai:  | Standard |
+| A teszt-eset elvárt eredménye:  | Sikeres |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | Indításkor azonnal indul a játék. A karakter és a pálya kinézete egyszerű, de mégis élvezhető. A alap zene és a hangeffektek érdekesek. Kezdéskor nem kell a gombora kettintani, automatikusan indul. A kilépés gomb nem működik. |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: | Csathó Zsolt  |
+|  Szervezeti egység/ beosztás: | Product Owner|
+|  Dátum: | 2020.12.13. |
+
+### 5.3 Tesztelési jegyzőkönyv - 3.
+
+|   |   |
+|---|---|
+| A teszt-eset leírás és célja:  | Zene , Hang teszt |
+| A tesztelt folyamat/funkció leírása:  | Zene , hang |
+| A tesztelés előfeltételei:  |  -  |
+| A tesztelés dátuma és időpontja:  | 2020.12.12 |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg |
+| A tesztet végző személy(ek):  | Pintér Bence  |
+| A tesztelt rendszer beállításai:  | Standard  |
+| A teszt-eset elvárt eredménye:  | Sikeres  |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | A tesztelt folyamatok az elvárt követelményeknek megfelelnek.  |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  Pintér Bence |
+|  Szervezeti egység/ beosztás: | Scrum master |
+|  Dátum: |  2020.05.12  |
+
+### 5.4 Tesztelési jegyzőkönyv - 4. 
+
+|   |   |
+|---|---|
+| A teszt-eset leírás és célja:  |   |
+| A tesztelt folyamat/funkció leírása:  | |
+| A tesztelés előfeltételei:  |    |
+| A tesztelés dátuma és időpontja:  |   |
+| A tesztadatok típusa:  |  |
+| A tesztet végző személy(ek):  | név  |
+| A tesztelt rendszer beállításai:  |   |
+| A teszt-eset elvárt eredménye:  |   |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | -  |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  név |
+|  Szervezeti egység/ beosztás: |   |
+|  Dátum: |  2021.01.06 13:58  |
+
+### 5.5 Jóváhagyások
+
+|   |   |
+|---|---|
+|  Név: |   |
+|  Szervezeti egység/ beosztás: |   |
+|  Dátum: |    |
+
