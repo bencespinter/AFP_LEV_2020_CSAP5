@@ -44,7 +44,7 @@ A játékos jogosult a játék elindítására, minden beépített funkció hasz
 
 ## Funkció-Követelmény megfeleltetés
 - **Modifikáció:** *-név:* A felhasználó saját profiljába belépve képes lesz folytatni az elkezdett játékot.
-- **Feladattípus:** *-pályák:* A felhasználónak pályákat kell teljesítenie, aminek az eredményeit adatbázisban fogunk tárolni.
+- **Feladattípus:** *-pályák:* A felhasználónak pályákat kell teljesítenie.
 - **Statisztika:** *-toplista:* Külön felület, amin a felhasználó láthatja az eddig elért eredményeket.
 - **Felület:** *-menü:* Menüpontok, ahol a felhasználó választhat .
 
