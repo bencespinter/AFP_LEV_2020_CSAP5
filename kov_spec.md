@@ -109,3 +109,39 @@ Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos
 
 Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:00 között. Az Alkalmazás működésével kapcsolatban a Felhasználó fejlesztoJatek@mail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol.
 
+## Követelménylista
+
+|   Modul   | ID |  Név   |  Verzió  |
+|-----------|----|--------|----------|
+|Jogosultság| K1 | Bejelentkezés|1.0|
+|Jogosultság|K2|Regisztráció|1.0|
+|Jogosultság|K3|Jogosultsági szintek|1.0|
+|Modifikáció|K4|Felhasználó módosítása|1.0|
+|Modifikáció|K5|Jelszó módosítása|1.0|
+|Modifikáció|K6|Elfelejtett felhasználónév/jelszó|1.0|
+|Feladattípus|K7|Profil|1.0|
+
+
+### Kifejtés    
+#### ID
+- K1  A felhasználó az email címe és a jelszava segítségével bejelentkezhet.
+Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
+
+- K2  A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.
+A jelszó tárolása kódolva történik az adatbázisban. Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek,
+akkor a rendszer értesíti erről a felhasználót. 
+
+- K3   Admin-Rendszerhozzáférés, feladatok feltöltése, felhasználók / szerepkörök módosítása.
+Zenész-átlag felhasználó, üzenetek, likeok 
+
+- K4 A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése,
+valamint a felhasználó jelszojának megadása. 
+
+- K5 A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszojának megadása, valamint az új megerősítése.
+
+- K6 Ha a felhasználó elfelejtette a felhasználónevét, vagy jelszavát akkor ezzel az opcióval egy Adminhoz tud fordulni.
+
+- K7 A felhasználónak lehetősége van a profilján található bemutatkozó szöveg módosítására.
+
+
+
