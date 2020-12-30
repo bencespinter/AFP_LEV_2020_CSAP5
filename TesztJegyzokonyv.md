@@ -327,5 +327,11 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 |  Szervezeti egység/ beosztás: |   |
 |  Dátum: |  2020.01.06 13:58  |
 
+### 7 Jóváhagyások
 
+|   |   |
+|---|---|
+|  Név: |  Pintér Bence |
+|  Szervezeti egység/ beosztás: | Scrum master |
+|  Dátum: |  2020.12.31 11:00  |
 
