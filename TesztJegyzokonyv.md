@@ -250,3 +250,82 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 |  Szervezeti egység/ beosztás: |   |
 |  Dátum: |    |
 
+## 6 Tesztelési jelentés 
+
+### 6.1 Tesztelési jelentés -  1.  
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | GUI, megfelelő megjelenítés |
+| A tesztelt folyamatok/funkciók/modulok leírása: |  Menü, ingame |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg |
+| A tesztelt rendszer beállításai:  | Standard  |
+| A tesztelés eredménye:  | **élesíthető**  |
+| Megjegyzések:  | A menüpontok a tervezettként funkcionálnak, minden végzi a dolgát, hibát nem fedeztem fel. |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  Kis Szandra |
+|  Szervezeti egység/ beosztás: | Team member  |
+|  Dátum: |  2020.12.30 12:15  |
+
+
+
+### 6.2 Tesztelési jelentés - 2. 
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | Gameplay, hibák felülvizsgálata |
+| A tesztelt folyamatok/funkciók/modulok leírása: |  Enemies, powerups, movement |
+| A tesztadatok típusa:  |  Megfelel/Nem felel meg |
+| A tesztelt rendszer beállításai:  | Standard |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | Indításkor azonnal indul a játék. A karakter és a pálya kinézete egyszerű, de mégis élvezhető. A alap zene és a hangeffektek érdekesek. Kezdéskor nem kell a gombora kettintani, automatikusan indul. A kilépés gomb nem működik.  |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  Csathó Zsolt |
+|  Szervezeti egység/ beosztás: | Product Owner|
+|  Dátum: |  2020.12.06 12:15  |
+
+
+### 6.3 Tesztelési jelentés - 3. 
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | Zene , Hang teszt |
+| A tesztelt folyamatok/funkciók/modulok leírása: |  Zene , Hang |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg  |
+| A tesztelt rendszer beállításai:  | Standard  |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | A tesztelt folyamatok az elvárt követelményeknek megfelelnek.  |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  Pintér Bence |
+|  Szervezeti egység/ beosztás: | Scrum master |
+|  Dátum: |  2020.12.30 13:58  |
+
+### 6.4 Tesztelési jelentés - 4. 
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  |  |
+| A tesztelt folyamatok/funkciók/modulok leírása: |   |
+| A tesztadatok típusa:  | szöveg  |
+| A tesztelt rendszer beállításai:  |   |
+| A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
+| Megjegyzések:  | -  |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: |  név |
+|  Szervezeti egység/ beosztás: |   |
+|  Dátum: |  2020.01.06 13:58  |
+
+
+
