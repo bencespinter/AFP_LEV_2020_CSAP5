@@ -17,3 +17,22 @@ A cél egyolyan játék létrehozása, ami segíti a fiatalok képességfejleszt
 ## Funkcionális követelmények
 A felhasználó a program elindítása után a bejelentkező illetve regisztrációs felület fogadja, ahol ki tudja választani, hogy mit csinál. Regisztrációkor meg kell adni pár alapvető adatot (Név, email, jelszó). Ha a bejelentkezés gombra kattint akkor be kell írni a email címet és a jelszót. Ha sikeresen regisztrált vagy bejelentkezett, akkor máris elérhető neki minden funkció, középen megjelenik a játék indítása, illetve a social hub gomb. Ha rákattintunk a játék indítása gombra, akkor elindul a játék az alapértelmezetten beállított pályával. Ha a social hub-ra kattintunk, akkor a social hub felülete jelenik meg. Ha a beállítások gombra kattintunk, akkor elérhetővé válik a profilkép feltöltési lehetőség, becenév módosítása, zene hangerejének módsosítása és a grafikus felület változtatására a lehetőség. 
 
+## Jelenlegi helyzet
+Új játékokra mindig szükség van. Ha a felhasználóknak tetszik egy fajta játék, szeretnének találni olyan hasonló játékokat, amik csak elvben ugyanazok, de vannak újítások benne. Pl:
+
+-   karakterekben
+-   pályákban
+-   pontozási módokban
+-   összeszedhető tokenek/szimbólumokban való változtatások, melyektől a játék megváltozik, ettől újnak számít. A felhasználóknak mindig lesznek új és új igényeik, ezek létrehozása kielégíthetik az igényeiket. Fontos a játékok korszerűsítése és optimalizálása.
+
+## Fogalomtár
+-   Reszponzív felület: Mindig igazodik a felület a képerányhoz.
+-  Social hub : Egy közösségi felület, ahol a felhasználók megoszthatják a pályáikat és lájkolhatják másokét.
+-   Beállítások: Itt lesz lehetőség a zene hangját állítani.
+-   Pálya választó: Itt lesz lehetőség a már fel oldott pályák végig vitelére.
+-   Feloldott pályák: egy pálya akkor lesz "feloldva" ha az elötte lévő szintet sikeresen meg csináltuk
+-   Karakter választó: A felhasználónak lehetősége lesz 2 karakter között választani.
+-   Ellenfelek: Mozgó ellemek amiket ellkell kerülni azért vannak a játékban hogy nehezítsék a játékot .
+-   Csapdák: Statikus ellenfelek akik nem mozognak fix pozícióban vannak.
+- Profil : Ide tölthetünk fel profilképet, nick nevet
+- Nick name: másnéven becenév
