@@ -323,9 +323,9 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 
 |   |   |
 |---|---|
-|  Név: |  név |
-|  Szervezeti egység/ beosztás: |   |
-|  Dátum: |  2020.01.06 13:58  |
+|  Név: |  Kis Szandra |
+|  Szervezeti egység/ beosztás: | Team member  |
+|  Dátum: |  2020.12.31 15:50  |
 
 ### 7 Jóváhagyások
 
