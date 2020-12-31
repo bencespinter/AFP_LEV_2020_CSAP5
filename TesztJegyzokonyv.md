@@ -312,12 +312,12 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 ### 6.4 Tesztelési jelentés - 4. 
 |   |   |
 |---|---|
-| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  |  |
-| A tesztelt folyamatok/funkciók/modulok leírása: |   |
-| A tesztadatok típusa:  | szöveg  |
-| A tesztelt rendszer beállításai:  |   |
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | Launcher teszt |
+| A tesztelt folyamatok/funkciók/modulok leírása: |  Launcher gombok tesztje |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg  |
+| A tesztelt rendszer beállításai:  | Standard  |
 | A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
-| Megjegyzések:  | -  |
+| Megjegyzések:  | A gombok megfelelően működnek |
 
 **Tesztelést elvégezte**
 
