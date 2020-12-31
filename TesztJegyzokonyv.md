@@ -223,16 +223,16 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 
 |   |   |
 |---|---|
-| A teszt-eset leírás és célja:  |   |
-| A tesztelt folyamat/funkció leírása:  | |
-| A tesztelés előfeltételei:  |    |
-| A tesztelés dátuma és időpontja:  |   |
-| A tesztadatok típusa:  |  |
-| A tesztet végző személy(ek):  | név  |
-| A tesztelt rendszer beállításai:  |   |
-| A teszt-eset elvárt eredménye:  |   |
+| A teszt-eset leírás és célja:  |  Launcher teszt |
+| A tesztelt folyamat/funkció leírása:  | Lacuncher gombok tesztje |
+| A tesztelés előfeltételei:  |  Launcher elkészítése  |
+| A tesztelés dátuma és időpontja:  | 2020.12.31  |
+| A tesztadatok típusa:  | Megfelel/Nem felel meg |
+| A tesztet végző személy(ek):  | Kis Szandra  |
+| A tesztelt rendszer beállításai:  | Standard  |
+| A teszt-eset elvárt eredménye:  |  Sikeres |
 | A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
-| Megjegyzések:  | -  |
+| Megjegyzések:  | A tesztelt folyamatok az elvárásoknak megfelelnek, a gombok megfelelően működnek |
 
 **Tesztelést elvégezte**
 
