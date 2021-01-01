@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637451274948117121
+      ticks: 637451278325387551
     m_Hash: 2154284960
   m_LockFileStatus:
     m_FilePath: C:/Users/Admin/Documents/PTI/Tajti Tibor/AFP/AFP_LEV_2020_CSAP5/2D_Game_Project_T5/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637451275183201997
+      ticks: 637451286642814748
     m_Hash: 4105749586
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
