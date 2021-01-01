@@ -331,7 +331,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 
 |   |   |
 |---|---|
-|  Név: |  Pintér Bence |
+|  Név: |  Kis Szandra |
 |  Szervezeti egység/ beosztás: | Scrum master |
-|  Dátum: |  2020.12.31 11:00  |
+|  Dátum: |  2021.01.01 11:00  |
 
