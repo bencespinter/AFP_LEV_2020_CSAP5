@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class RespawnPlayer : MonoBehaviour
 {
-    //void OnCollisionEnter(Collision other)
-    //{
-    //    if (other.gameObject.tag == "Player")
-    //        Application.LoadLevel(Application.loadedLevel);
-    //}
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player")
+            Application.LoadLevel(Application.loadedLevel);
+    }
 }
