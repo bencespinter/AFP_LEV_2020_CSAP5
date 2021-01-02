@@ -17,12 +17,7 @@ public class RestartTrigger : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(0.5f);
         SceneManager.LoadScene("SampleScene");
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
         SceneManager.LoadScene("2nd_fields");
-=======
->>>>>>> main
->>>>>>> main
     }
 }

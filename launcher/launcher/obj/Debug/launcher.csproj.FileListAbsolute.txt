@@ -28,3 +28,18 @@ C:\Users\kss3htv\Desktop\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher
 C:\Users\kss3htv\Desktop\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.csproj.CoreCompileInputs.cache
 C:\Users\kss3htv\Desktop\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.exe
 C:\Users\kss3htv\Desktop\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.pdb
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\bin\Debug\launcher.exe.config
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\bin\Debug\launcher.exe
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\bin\Debug\launcher.pdb
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher_MarkupCompile.cache
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher_MarkupCompile.lref
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.g.resources
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.Properties.Resources.resources
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.exe
+C:\Users\Admin\Documents\PTI\Tajti Tibor\AFP\AFP_LEV_2020_CSAP5\launcher\launcher\obj\Debug\launcher.pdb
