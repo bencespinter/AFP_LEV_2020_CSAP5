@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     public CharacterController2D controller;
     public int coincount = 0;
     public Animator animator;
@@ -15,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
     public Text myText;
+    
+    
     // Update is called once per frame
     void Update()
     {
@@ -26,11 +29,12 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", true);
         }
+
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
-        }
-        else if (Input.GetButtonUp("Crouch"))
+        } 
+        else if ( Input.GetButtonUp("Crouch"))
         {
             crouch = false;
         }
@@ -40,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
+
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
@@ -49,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         myText = GameObject.Find("CollectedGems").GetComponent<Text>();
