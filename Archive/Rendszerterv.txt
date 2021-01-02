@@ -1,0 +1,23 @@
+A rendszer célja: Leírja hogy mit szeretne megoldani a rendszer.
+
+A rendszer célja, hogy olyan rendszert fejlesztünk, ami segíti a fiatalok képességfejlesztését játékos formában.
+Célunk, hogy a gyerekek a lehetőleg kreatívan gondolkodjanak és fejlesszünk ügyességüket.
+A játékos az idő és a begyűjtött kincsek függvényében pontszámot kap. Minél rövidebb idő alatt végez a pályán és minél több kincset gyűjt be, annál magasabb pontszámot ér el. A pontszámokból kap visszajelzést a teljesítményéről.
+Fontosnak tartottuk azt is, hogy a felhasználók könnyen el tudjanak igazodni a felületeken, ezért egyszerű menüt készítünk.
+Célunk volt az is, hogy Androidos eszközökön, valamint webes felületen is elérhető legyen.
+
+PROJEKTTERV
+Leírja a szerepköröket ,kik vannak a csapatban és min dolgoznak. Ide kerül az ütemterv és általában mérföldköveket tartalmaz.
+
+Projektszerepkörök, felelőségek:
+Scrum master: Pintér Bence
+Felügyeli a folyamatok fenntartását, segíti és felügyeli a csapatot 
+
+Product owner: Csathó Zsolt
+A megrendelő szerepét tölti be, ő a felelős azért, hogy a csapat mindig azt a részét fejlessze a terméknek, amely éppen a legfontosabb.
+
+Projektmunkások és felelőségek :
+Backend munkálatok: (csapat tagjai)
+Kiss Szandra
+Pamalényi Artúr
+Feladatuk az adatok tárolásához szükséges adatszerkezetek kialakítása,

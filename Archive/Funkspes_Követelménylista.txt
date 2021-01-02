@@ -1,0 +1,12 @@
+Itt kell leírni azt, hogy milyen funkciókkal kell rendelkeznie a programunknak, ezeknek milyen al-funkciói vannak. A követelmény specifikációhoz képest itt sokkal részletesebben és pontosabban le vannak írva a követelmények.
+
+Funkciók:
+- A felhasználók számára látványos dizájnt alakítunk ki.
+- A játékosok nevének megadásával kezdheti a játékot. Amennyiben már volt előzménye, választhatja a kezést onnan is.
+- Új játék indításakor csak az első pályán kezdi el a játékot a start gomb megnyomásával. Ekkor nincs lehetősége pályát választani.
+- A játékos irányítása a nyilakkal töténik. Előre a jobb nyíl, hátra a bal és az ugrás a fölfele nyíllal lehetséges.
+- A játékos az eltelt idő és a begyűjtött kincsek függvényében pontot kap. Minél rövidebb idő alatt végez a pályán és minél több kincset gyűjt be, annál magasabb pontszámot ér el.
+- Amennyiben a pályák végére ért, vagy ütközik az ellenséggel egy életet veszít. Amennyiben nincs több élete a játék véget ér.
+- A játékból bármikor kiléphet, a kilépés gomb megnyomásával.
+- Amenniyben a játék során a checkpointig  eljut a játékos, innen kezdheti újra a játék, ha még maradt élete.
+- A pályák zenéket,és hangeffekteket tartalmaznak. Ezáltal is élvezetesebbé téva az alkalmazást.
