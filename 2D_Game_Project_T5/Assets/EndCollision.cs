@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EndCollision : MonoBehaviour
 {
     public AudioClip endSound;
@@ -9,7 +10,7 @@ public class EndCollision : MonoBehaviour
     {
         PlayerMovement pm;
         AudioSource.PlayClipAtPoint(endSound, Camera.main.transform.position);
-        //pm.StopAllCoroutines();
+        StopAllCoroutines();
         Debug.Log("LEVEL COMPLETE");
     }
 }

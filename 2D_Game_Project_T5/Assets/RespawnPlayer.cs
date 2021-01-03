@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RespawnPlayer : MonoBehaviour
 {
+    [System.Obsolete]
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Player")
