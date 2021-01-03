@@ -56,9 +56,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\RespawnPlayer.cs" />
+     <Compile Include="Assets\EndCollision.cs" />
      <Compile Include="Assets\RestartTrigger.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\CharacterController2D.cs" />
+     <Compile Include="Assets\menu.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Admin/Documents/PTI/Tajti Tibor/AFP/AFP_LEV_2020_CSAP5/2D_Game_Project_T5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
