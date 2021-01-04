@@ -10,7 +10,7 @@ public class EndCollision : MonoBehaviour
     {
         PlayerMovement pm;
         AudioSource.PlayClipAtPoint(endSound, Camera.main.transform.position);
-        StopAllCoroutines();
+        //pm.StopAllCoroutines();
         Debug.Log("LEVEL COMPLETE");
     }
 }

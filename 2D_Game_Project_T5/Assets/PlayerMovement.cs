@@ -10,8 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public int coincount = 0;
     public Animator animator;
+
     public float runSpeed = 30f;
+ 
     float horizontalMove = 0f;
+   
     bool jump = false;
     bool crouch = false;
     public Text myText;   
