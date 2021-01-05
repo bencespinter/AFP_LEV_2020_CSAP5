@@ -14,5 +14,5 @@ public class menu : MonoBehaviour
 	{
 		Application.Quit ();
 	}
-
+	//pause gombot is implemetálni kell!
 }
