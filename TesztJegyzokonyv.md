@@ -180,7 +180,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 | A teszt-eset leírás és célja:  | Gameplay, hibák felülvizsgálata |
 | A tesztelt folyamat/funkció leírása:  | Enemies, powerups, movement |
 | A tesztelés előfeltételei:  | - |
-| A tesztelés dátuma és időpontja:  | 2020.12.12 |
+| A tesztelés dátuma és időpontja:  | 2021.01.15. |
 | A tesztadatok típusa:  | Megfelel/Nem felel meg |
 | A tesztet végző személy(ek):  | Csathó Zsolt |
 | A tesztelt rendszer beállításai:  | Standard |
@@ -194,7 +194,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 |---|---|
 |  Név: | Csathó Zsolt  |
 |  Szervezeti egység/ beosztás: | Product Owner|
-|  Dátum: | 2020.12.13. |
+|  Dátum: | 2021.01.15. |
 
 ### 5.3 Tesztelési jegyzőkönyv - 3.
 
@@ -288,7 +288,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 |---|---|
 |  Név: |  Csathó Zsolt |
 |  Szervezeti egység/ beosztás: | Product Owner|
-|  Dátum: |  2020.12.06 12:15  |
+|  Dátum: |  2021.01.15 15:15  |
 
 
 ### 6.3 Tesztelési jelentés - 3. 
@@ -331,7 +331,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 
 |   |   |
 |---|---|
-|  Név: |  Kis Szandra |
-|  Szervezeti egység/ beosztás: | Scrum master |
-|  Dátum: |  2021.01.01 11:00  |
+|  Név: |  Csathó Zsolt |
+|  Szervezeti egység/ beosztás: | Product owner |
+|  Dátum: |  2021.01.15 16:00  |
 
