@@ -1,5 +1,4 @@
-﻿
-# [2D_Game_Project_T5](https://github.com/bencespinter/AFP_LEV_2020_CSAP5/tree/main/2D_Game_Project_T5 "2D_Game_Project_T5") - Követelmény Specifikáció
+﻿# [2D_Game_Project_T5](https://github.com/bencespinter/AFP_LEV_2020_CSAP5/tree/main/2D_Game_Project_T5 "2D_Game_Project_T5") - Követelmény Specifikáció
 
 ## Áttekintés
 A cél egyolyan játék létrehozása, ami segíti a fiatalok képességfejlesztését játékos formában. Célunk, hogy a gyerekek a lehetőleg kreatívan gondolkodjanak és fejlesszék az ügyességüket, mindezt játékos formában ezáltal színesebbé válik a fejlődés. A játék lehetőleg több platformon hozzáférhető legyen. A fejlesztés ingyenes lesz, ezért bárki bárhonnan le tudja majd tölteni. Különböző szinteken eltérő nehézségű pályákon, ellenség beiktatásával és kincs szerzéssel próbára teheti a tudását. Minden pálya után az adott személy láthatja, hogy mennyi pontot szerzett.

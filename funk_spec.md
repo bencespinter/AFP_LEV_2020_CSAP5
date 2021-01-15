@@ -1,7 +1,4 @@
-﻿
-
-
-# Funkcionális specifikáció
+﻿# Funkcionális specifikáció
 
 ## Áttekintés
 Az alkalmazásunk szórakozás és fejlesztés céljából készül. Játékunk ingyenes, bárki számára elérhető. Rendelkezik egy menüvel, amelyben nevet valamint karaktert és pályát választhatunk. Az ábrázolás úgynevezett 8bites ábrázolás, azaz pixeles, ezzel egyfajta retro érzést kapunk, mégis a játék maga gördülékeny. A karaktereket saját magunk hoztuk létre, ugyanúgy, mint a pályákat. A játék során szerzett pontokat, amelyek a pályán való haladás és az összegyűjtött szimbólumok alapján adódnak össze, a játék végén megjelenítjük egy táblázatban a játékos neve mellett, a többi játékos pontjaival csökkenő sorrendbe rendezve amolyan toplistás rendezésben. Ez lehetővé teszi a többi játékosokhoz való összehasonlítást, versengést.
