@@ -10,11 +10,22 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public int coincount = 0;
     public Animator animator;
-    public float runSpeed = 30f; 
-    float horizontalMove = 0f;   
+    public float runSpeed = 30f;
+    float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-    public Text myText;   
+    public Text myText;
+
+    public Image[] _hearts;
+    public int lifeLeft;
+
+    void Start()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            _hearts[i].gameObject.SetActive(true);
+        }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -29,13 +40,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
-        } 
-        else if ( Input.GetButtonUp("Crouch"))
+        }
+        else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
         }
     }
-    public void OnCrouching (bool isCrouching)
+    public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
@@ -59,9 +70,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Respawn") || other.gameObject.CompareTag("Enemy"))
         {
+            lifeLeft--;
+            _hearts[lifeLeft].gameObject.SetActive(false);
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
-            coincount = 0;
+            coincount = 0;            
         }
     }
 }

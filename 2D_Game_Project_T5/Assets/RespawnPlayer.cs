@@ -10,5 +10,6 @@ public class RespawnPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
             Application.LoadLevel(Application.loadedLevel);
+
     }
 }
