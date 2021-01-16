@@ -110,15 +110,15 @@ Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:0
 
 ## Követelménylista
 
-|   Modul   | ID |  Név   |  Verzió  |
-|-----------|----|--------|----------|
-|Jogosultság| K1 | Bejelentkezés|1.0|
-|Jogosultság|K2|Regisztráció|1.0|
-|Jogosultság|K3|Jogosultsági szintek|1.0|
-|Modifikáció|K4|Felhasználó módosítása|1.0|
-|Modifikáció|K5|Jelszó módosítása|1.0|
-|Modifikáció|K6|Elfelejtett felhasználónév/jelszó|1.0|
-|Feladattípus|K7|Profil|1.0|
+|   Modul   | ID |  	Név   	 |  Verzió  |
+|-----------|----|---------------|----------|
+|Jogosultság| K1 | Bejelentkezés |1.0|
+|Jogosultság| K2 |Regisztráció	 |1.0|
+|Jogosultság| K3 |Jogosultsági szintek|1.0|
+|Modifikáció| K4 |Felhasználó módosítása|1.0|
+|Modifikáció| K5 |Jelszó módosítása|1.0|
+|Modifikáció| K6 |Elfelejtett felhasználónév/jelszó|1.0|
+|Feladattípus|K7 |Profil	 |1.0|
 
 
 ### Kifejtés    

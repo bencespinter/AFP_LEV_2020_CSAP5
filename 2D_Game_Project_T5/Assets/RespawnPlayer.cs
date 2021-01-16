@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class RespawnPlayer : MonoBehaviour
 {
     [System.Obsolete]
@@ -10,6 +11,7 @@ public class RespawnPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
             Application.LoadLevel(Application.loadedLevel);
-
+        //_hearts[lifeLeft].gameObject.SetActive(false);
+        //lifeLeft--;
     }
 }
