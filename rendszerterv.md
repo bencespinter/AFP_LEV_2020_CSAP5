@@ -11,7 +11,7 @@ A rendszer célja a folyamatosan újuló igények kielégítése valamint a ját
 **Pamlényi Artúr:** Team member
 
 ## Üzleti folyamatok modellje
-A felhasználó az első indításkor meg kell addnia a játékos nevét ha van ilyen név már mentve akkor betölti az eddigi eredményeket ha nincs akkor létre lesz hozzva neki egy új mentés . Mentés betöltése után egy egyszerű menüt láthatunk majd ahol ki lehet választani a pályákat , be lehet a zene hang erejét állítani és ki lehet lépni.
+A felhasználó az első indításkor meg kell addnia a játékos nevét ha van ilyen név már mentve akkor betölti az eddigi eredményeket ha nincs akkor létre lesz hozzva neki egy új mentés. Mentés betöltése után egy egyszerű menüt láthatunk majd ahol ki lehet választani a pályákat, be lehet a zene hang erejét állítani és ki lehet lépni.
 
 ## Követelmények
 **Funkcionális követelmények:**
@@ -149,7 +149,7 @@ Az alábbi funkcionális elvárások szerepelnek az üzleti illetve fejlesztői 
 > A dokumentum átdolgozás alatt (Hiányzó tesztelési elvárás a üzleti illetve fejlesztői specifikációban).
 
 | #  | Leírás |
-|---|---|
+|----|--------|
 | 1. | GUI |
 | 2. | Gameplay |
 | 3. | Design |
@@ -157,7 +157,7 @@ Az alábbi funkcionális elvárások szerepelnek az üzleti illetve fejlesztői 
 Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejlesztői specifikációban, amelyek tesztelésre is kerültek: 
 
 | #  | Leírás |
-|---|---|
+|----|--------|
 | 1. | Felhasználóbarát felület |
 | 2. | Gyors működés |
 | 3. | Optimalizált |
