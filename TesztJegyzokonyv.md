@@ -53,7 +53,7 @@ Tesztelés célja a projektben megtalálható funkcionális és design hibák fe
 
 ### 2.3 Tesztadatok
 A teszt végrehajtásához szükséges rekordok (tesztadatok) száma: 3
-A tesztadatok elkészítéséért és feltöltéséért felelős személy: név
+A tesztadatok elkészítéséért és feltöltéséért felelős személy: Pintér Bence
 
 
 ### 2.4 Leszállítandó teszt dokumentumok
