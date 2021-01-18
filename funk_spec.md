@@ -45,3 +45,4 @@ A játékos jogosult a játék elindítására, minden beépített funkció hasz
 - **Statisztika:** *-toplista:* Külön felület, amin a felhasználó láthatja az eddig elért eredményeket.
 - **Felület:** *-menü:* Menüpontok, ahol a felhasználó választhat .
 
+## Képernyőtervek

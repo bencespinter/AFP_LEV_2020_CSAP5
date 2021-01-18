@@ -70,11 +70,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Respawn") || other.gameObject.CompareTag("Enemy"))
         {
-
-            LifeLost();
+           
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
             coincount = 0;
+            LifeLost();
         }
     }
     public void LifeLost()

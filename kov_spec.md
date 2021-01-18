@@ -6,7 +6,6 @@ A cél egyolyan játék létrehozása, ami segíti a fiatalok képességfejleszt
 ## Jelenlegi üzleti folyamatok
 A gyermekek számára egy színes, szórakozató, de emellett oktató játékot biztosítani, amely logikai feladványokkal, fejtörőkkel fejleszti képességeiket. Akár kisebbeknek és nagyobbaknak is lehetőségük lesz saját tervezésű pályák létrehozására, kialakítására és ezt egy social hub-ra való feltöltésre és a játékosok között való megosztásra. A megosztott pályáknak lesz egy leaderborad-ja, ezáltal egy kis verseny alakulhat ki közöttük. 
 
-
 ## Igényelt üzleti folyamatok
 Tervezünk egy kezdőfelületet, amin a felhasználó regisztrálhat vagy bejelentkezhet. Ezt követően a felhasználó átkerül a képernyőtervben látható a központi felületre, ahol elkezdheti a játékot, vagy átmehet a social hub-ra. A menüsávban látható lehetőségek: értesítések, beállítások és profil. Az értesítésekben láthatóak a legutóbb elért pontszámok és azok a rekodok, amiket megdöntöttek. Rájuk kattintva az adott pálya leaderboardja láthatóvá válik. A beállításokban lehet hangerőt, alapértelmezett nehézségi fokot beállítani, továbbá lehet grafikus témát választani, illetve kijelentkezni. A profilban képes a felhasználó beállítani saját profilképét, játékban megjelent nevét és megjelölni a kedvenc pályáját.
 
@@ -26,15 +25,15 @@ A felhasználó a program elindítása után a bejelentkező illetve regisztrác
 
 ## Fogalomtár
 -   Reszponzív felület: Mindig igazodik a felület a képerányhoz.
--  Social hub : Egy közösségi felület, ahol a felhasználók megoszthatják a pályáikat és lájkolhatják másokét.
+-   Social hub : Egy közösségi felület, ahol a felhasználók megoszthatják a pályáikat és lájkolhatják másokét.
 -   Beállítások: Itt lesz lehetőség a zene hangját állítani.
 -   Pálya választó: Itt lesz lehetőség a már fel oldott pályák végig vitelére.
 -   Feloldott pályák: egy pálya akkor lesz "feloldva" ha az elötte lévő szintet sikeresen meg csináltuk
 -   Karakter választó: A felhasználónak lehetősége lesz 2 karakter között választani.
 -   Ellenfelek: Mozgó ellemek amiket ellkell kerülni azért vannak a játékban hogy nehezítsék a játékot .
 -   Csapdák: Statikus ellenfelek akik nem mozognak fix pozícióban vannak.
-- Profil : Ide tölthetünk fel profilképet, nick nevet
-- Nick name: másnéven becenév
+-   Profil : Ide tölthetünk fel profilképet, nick nevet
+-   Nick name: másnéven becenév
 
 ## Rendszerre vonatkozó törvények
 

@@ -280,7 +280,7 @@ Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejleszt
 | A tesztadatok típusa:  |  Megfelel/Nem felel meg |
 | A tesztelt rendszer beállításai:  | Standard |
 | A tesztelés eredménye:  | **Megfelelt/élesíthető**  |
-| Megjegyzések:  | Indításkor azonnal indul a játék. A karakter és a pálya kinézete egyszerű, de mégis élvezhető. A alap zene és a hangeffektek érdekesek. Kezdéskor nem kell a gombora kettintani, automatikusan indul. A kilépés gomb nem működik.  |
+| Megjegyzések:  | A játék azonnal indul. A gombok nem működnek megfelelően. A játékos és az ellenség jól mozog, ütközés esetén ujra indul a játék. Az élet értéke nem csökken. |
 
 **Tesztelést elvégezte**
 
