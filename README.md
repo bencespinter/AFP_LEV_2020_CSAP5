@@ -1,191 +1,145 @@
-﻿# Rendszerterv
+﻿# [2D_Game_Project_T5](https://github.com/bencespinter/AFP_LEV_2020_CSAP5/tree/main/2D_Game_Project_T5 "2D_Game_Project_T5") - Követelmény Specifikáció
 
-## A rendszer célja
-A rendszer célja a folyamatosan újuló igények kielégítése valamint a játékok izgalmasságának fenntartása. A játékos választhat pályát, melyek egyre nehezednek, váratlan események történhetnek, így ha végig akarják játszani a játékot akkor fejleszteniük kell a reakcióidejüket valamint a memóriájukat(pl egy hosszúpályánál), megoldóképességüket. A játékos az idő és a begyűjtött kincsek függvényében pontszámot kap. Minél rövidebb idő alatt végez a pályán és minél több kincset gyűjt be, annál magasabb pontszámot ér el. A pontszámokból kap visszajelzést a teljesítményéről. Fontosnak tartottuk azt is, hogy a felhasználók könnyen el tudjanak igazodni a felületeken, ezért egyszerű menüt készítünk. Célunk az is, hogy Androidos eszközökön, valamint webes felületen is elérhető legyen.
+## Áttekintés
+A cél egyolyan játék létrehozása, ami segíti a fiatalok képességfejlesztését játékos formában. Célunk, hogy a gyerekek a lehetőleg kreatívan gondolkodjanak és fejlesszék az ügyességüket, mindezt játékos formában ezáltal színesebbé válik a fejlődés. A játék lehetőleg több platformon hozzáférhető legyen. A fejlesztés ingyenes lesz, ezért bárki bárhonnan le tudja majd tölteni. Különböző szinteken eltérő nehézségű pályákon, ellenség beiktatásával és kincs szerzéssel próbára teheti a tudását. Minden pálya után az adott személy láthatja, hogy mennyi pontot szerzett.
 
-## Projektterv
-**Résztvevők és főbb szerepköreik:**
-**Pintér Bence:** Scrum master
-**Csathó Zsolt:** Product owner
-**Kis Szandra:** Team member
-**Pamlényi Artúr:** Team member
+## Jelenlegi üzleti folyamatok
+A gyermekek számára egy színes, szórakozató, de emellett oktató játékot biztosítani, amely logikai feladványokkal, fejtörőkkel fejleszti képességeiket. Akár kisebbeknek és nagyobbaknak is lehetőségük lesz saját tervezésű pályák létrehozására, kialakítására és ezt egy social hub-ra való feltöltésre és a játékosok között való megosztásra. A megosztott pályáknak lesz egy leaderborad-ja, ezáltal egy kis verseny alakulhat ki közöttük. 
 
-## Üzleti folyamatok modellje
-A felhasználó az első indításkor meg kell addnia a játékos nevét ha van ilyen név már mentve akkor betölti az eddigi eredményeket ha nincs akkor létre lesz hozzva neki egy új mentés. Mentés betöltése után egy egyszerű menüt láthatunk majd ahol ki lehet választani a pályákat, be lehet a zene hang erejét állítani és ki lehet lépni.
+## Igényelt üzleti folyamatok
+Tervezünk egy kezdőfelületet, amin a felhasználó regisztrálhat vagy bejelentkezhet. Ezt követően a felhasználó átkerül a képernyőtervben látható a központi felületre, ahol elkezdheti a játékot, vagy átmehet a social hub-ra. A menüsávban látható lehetőségek: értesítések, beállítások és profil. Az értesítésekben láthatóak a legutóbb elért pontszámok és azok a rekodok, amiket megdöntöttek. Rájuk kattintva az adott pálya leaderboardja láthatóvá válik. A beállításokban lehet hangerőt, alapértelmezett nehézségi fokot beállítani, továbbá lehet grafikus témát választani, illetve kijelentkezni. A profilban képes a felhasználó beállítani saját profilképét, játékban megjelent nevét és megjelölni a kedvenc pályáját.
 
-## Követelmények
-**Funkcionális követelmények:**
-	- Felhasználó nevének tárolása
-	- Felhasználó pontszámának tárolása
-	- Felhasználó idejének tárolása
-	- Felhasználó in-game progress-ének tárolása
-	- Főmenü kezelhetősége
-	- Toplista
-	- Időszámláló
+## Vágyálom rendszer
+A cél egyolyan játék létrehozása, ami segíti a fiatalok képességfejlesztését játékos formában. Célunk, hogy a gyerekek a lehetőleg kreatívan gondolkodjanak és fejlesszék az ügyességüket, mindezt játékos formában ezáltal színesebbé válik a fejlődés. A játék lehetőleg több platformon hozzáférhető legyen. A fejlesztés ingyenes lesz, ezért bárki bárhonnan le tudja majd tölteni. Különböző szinteken eltérő nehézségű pályákon, ellenség beiktatásával és kincs szerzéssel próbára teheti a tudását. Minden pálya után az adott személy láthatja, hogy mennyi pontot szerzett..
 
-**Nem funkcionális követelmények:**
-	- Letisztult, felhasználóbarát felület
-	- Betöltés és mentés gyors működése
-	- Optimalizáltság
+## Funkcionális követelmények
+A felhasználó a program elindítása után a bejelentkező illetve regisztrációs felület fogadja, ahol ki tudja választani, hogy mit csinál. Regisztrációkor meg kell adni pár alapvető adatot (Név, email, jelszó). Ha a bejelentkezés gombra kattint akkor be kell írni a email címet és a jelszót. Ha sikeresen regisztrált vagy bejelentkezett, akkor máris elérhető neki minden funkció, középen megjelenik a játék indítása, illetve a social hub gomb. Ha rákattintunk a játék indítása gombra, akkor elindul a játék az alapértelmezetten beállított pályával. Ha a social hub-ra kattintunk, akkor a social hub felülete jelenik meg. Ha a beállítások gombra kattintunk, akkor elérhetővé válik a profilkép feltöltési lehetőség, becenév módosítása, zene hangerejének módsosítása és a grafikus felület változtatására a lehetőség. 
 
-**Törvényi előírások, szabványok:**
-	- GDPR-nak való megfelelés
-	- Általános információk
-	- Szellemi tulajdon
-	- Használat
-	- Felelősségi szabályok
-	- Technikai követelmények
-	- Garancia és kártérítés
-	- 2013. évi V. törvény
-	- Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete
-	- 2011. évi CXII. törvény
-	- a szerzői jogról szóló 1999. évi LXXVI. törvény
-	- 2001. évi CVIII. törvény
+## Jelenlegi helyzet
+Új játékokra mindig szükség van. Ha a felhasználóknak tetszik egy fajta játék, szeretnének találni olyan hasonló játékokat, amik csak elvben ugyanazok, de vannak újítások benne. Pl:
 
-## Architekturális terv
-Az asztali program Unity keretrendszer használatával készül el. Bejelentkezés után elérhetőek lesznek az eddig elért eredmények.  
+-   karakterekben
+-   pályákban
+-   pontozási módokban
+-   összeszedhető tokenek/szimbólumokban való változtatások, melyektől a játék megváltozik, ettől újnak számít. A felhasználóknak mindig lesznek új és új igényeik, ezek létrehozása kielégíthetik az igényeiket. Fontos a játékok korszerűsítése és optimalizálása.
 
-## Implementációs terv
-### Windows Desktop Application  
-Az alkalmazás felhasználói oldalát asztali alkalmazásnak tervezzük. A terv a C#  nyelv használatát írja elő, főleg mert ismerős és könnyen használható.
+## Fogalomtár
+-   Reszponzív felület: Mindig igazodik a felület a képerányhoz.
+-   Social hub : Egy közösségi felület, ahol a felhasználók megoszthatják a pályáikat és lájkolhatják másokét.
+-   Beállítások: Itt lesz lehetőség a zene hangját állítani.
+-   Pálya választó: Itt lesz lehetőség a már fel oldott pályák végig vitelére.
+-   Feloldott pályák: egy pálya akkor lesz "feloldva" ha az elötte lévő szintet sikeresen meg csináltuk
+-   Karakter választó: A felhasználónak lehetősége lesz 2 karakter között választani.
+-   Ellenfelek: Mozgó ellemek amiket ellkell kerülni azért vannak a játékban hogy nehezítsék a játékot .
+-   Csapdák: Statikus ellenfelek akik nem mozognak fix pozícióban vannak.
+-   Profil : Ide tölthetünk fel profilképet, nick nevet
+-   Nick name: másnéven becenév
 
-## Funkcionális terv
-**Rendszerszereplők:**
-Felhasználók
+## Rendszerre vonatkozó törvények
 
-**Rendszerhasználati esetek és lefutásaik:**
-Felhasználók:
-- Név megadása ami betölti az előzményeket, ha voltak, ha nem akkor új felhasználót hoz létre
-- Karakter kiválasztása
-- Pálya kiválasztása
-- Következő pályára lépés 
-- Pálya újrakezdése
-- Zene lenémítása
-- Zene felhangosítása
-- Toplista megtekintése
-- Kilépés
 
-**Menü-hierarchiák:**
-MAIN MENÜ
-- Játék
-- Toplista megjelenítése
-- Hangerő beállítása
+### Általános Információk
 
-JÁTÉK
-- Név megadása
-- Karakter kiválasztása
-- Pálya kiválasztása
+Az Alkalmazáshoz való hozzáférést és annak használatát az alkalmazandó jogszabályok és a jelen Felhasználási Feltételek és Adatkezelési tájékoztató (a továbbiakban Felhasználási Feltételek) szabályozzák. Az Alkalmazást letöltők és használók (a továbbiakban: a Felhasználók) elfogadják a jelen Felhasználási Feltételeket. Amennyiben ezen Felhasználási Feltételeket és Adatkezelési Tájékoztatót nem fogadják el, nem jogosultak a regisztrációra és az Alkalmazás használatára.
 
-## Fizikai környezet
-- Az alkalmazás PC-re készül
-- A következő operációs rendszereken lesz elérhető: **Windows, Linux, Macintosh**
-- Nincsenek megvásárolt komponenseink
-- Nincsenek alkalmazáson belüli mikrotranzakciók
-**Fejlesztői eszközök:**
-- Unity
-- Visual Studio
+A jelen Felhasználási Feltételekre a magyar jog az irányadó, tekintet nélkül a nemzetközi magánjog előírásaira. Az Alkalmazás Felhasználói kifejezetten hozzájárulnak ahhoz, hogy a jogvitákra a magyar hatóságoknak és bíróságoknak legyen kizárólagos joghatóságuk a magyar jog alapján.
 
-## Absztrakt domain modell
-A rendszert a felhasználó egy Windowsos alkalmazáson keresztül érheti majd el, aminek az elkészítését C# nyelven tervezzük. A felület lehetővé teszi majd a felhasználó számára a név megadásával a bejelentkezést. Későbbiekben ehhez a névhez rendeljük a felhasználó pontjait amit megjelenítünk egy táblázatban a többi felhasználó nevével és pontjával. A felhasználó választhat a karakterek közül, illetve pályák közül. Akkor léphet a következő pályára, ha az azt megelőzőt végigjátszotta, azaz legalább 1 csillagot szerzett. Csillagot a pálya teljesítése alapján kap a pálya végigjárása és a pálya hossza arányában. A hangerősséget lehet majd állítani illetve lenémítani.
 
-## Tesztelési terv
-Fejezeteket teszteltünk, csakis akkor töltöttük fel a programkódot ha az megfelelt az elvárt követelményeknek, és a lehető legkevesebb bugot tartalmazta/nem is tartalmazott.
-**Tesztelés lépcsői:**
-- Graphics and BufferStrategies
-- Handler
-- Movement, collision, jumping
-- Sprites and SpriteSheets
-- Animation
-- Camera
-- Level design
-- Powerup, Enemies, Coins, Mini Boss
+### Szellemi tulajdon
 
-### Fejlesztői teszt
-A fejlesztői tesztelés célja a rendszer alapvető funkcióinak ellenőrzése, a hibakezelés és az alapvető funkciók működésének vizsgálata
+Az Alkalmazás és valamennyi kapcsolódó védjegy, szerzői jogi alkotás és egyéb – akár bejegyzett, akár be nem jegyzett – szellemi tulajdon (a továbbiakban együttesen: Szellemi Tulajdon) tulajdonosa az EKE és/vagy EKE Szolgáltató, valamint az alkalmazáshoz kedvezményt nyújtó partnerek. A Felhasználók az Alkalmazást a Szellemi Tulajdon maximális tiszteletben tartásával jogosultak használni. A Szellemi Tulajdon kiterjed különösen, de nem kizárólagosan valamennyi szoftverre, logóra, márkajelre, márkanévre, fényképre, szövegre, grafikára, adatbázisra. A Szellemi Tulajdonnak tilos bárminemű megsértése, bitorlása, másolása, átdolgozása és tilos azt bármilyen egyéb módon megsérteni, azt jogosulatlanul felhasználni, továbbadni, megterhelni, azzal bármilyen módon rendelkezni, visszaélni. Ezen szabályok megsértése az Alkalmazás használati lehetőségeinek azonnali hatályú megszüntetése mellett a megfelelő jogi lépések megtételét – beleértve esetleges büntetőjogi lépések megtételét is – vonja maga után a Felhasználóval, más jogsértő személlyel szemben a Tulajdonos és/vagy a Szellemi Tulajdon egyéb jogosultjai által.
 
-### Prototípus (modul) teszt
-A prototípustesztelés (vagy másik nevén modultesztelés) célja a rendszer már működő moduljainak önálló tesztelése, a modulon belüli hibák azonosításának és kiküszöbölésének érdekében. 
-**Módszere:** 
-A szegmensek validálása egyénileg történik. A tesztelés visszont a szegmensek föggőségeire is ki terjed.
 
-### Integrációs teszt
-Az integrációs teszt célja a rendszer más rendszerekhez történő illesztésének vizsgálata, a több rendszereken keresztül átívelő funkciók tesztelésének érdekében. Az adatmigrációs tesztelés az integrációs teszteléshez tartozik, ennek lényege, hogy a bevezetendő rendszerbe áttöltik azokat az adatokat, amelyekkel a rendszer dolgozni fog és letesztelik a betöltött adatok, illetve az adatokat kezelő funkciók helyességét. 
+### Használat
 
-### Elfogadási teszt
-Az elfogadási teszt (angolul User Acceptance Test) célja a rendszer teljes funkcionalitásának vizsgálata a felhasználók szemszögéből
-**Módszere:**
-A teszt egy kontrol csoportal zajlik, egy külső cégen keresztül.
+Az Alkalmazás Felhasználói 6 éven felüli természetes személyek lehetnek. Az Alkalmazás díjmentesen vehető igénybe, kizárólag privát, azaz nem üzletszerű módon és célra, kizárólag a jelen Felhasználási Feltételek szerint. Az Alkalmazás letöltéséért és használatáért az adatforgalmat biztosító szolgáltató külön díjat számíthat fel. Az ezzel kapcsolatos esetlegesen felmerülő költségek a Felhasználót terhelik.
 
-### Terheléses teszt
-A terheléses teszt célja a tervezett kapacitások, valamint a rendelkezésre álló növekedési potenciál meghatározása.
-**Módszere:**
-A próba telepítést követően egy meghívott teszt közönéggel zajlik, szimulálva egy átlagos napi használatot.
+A Felhasználási Feltételek és az Alkalmazás működésének a módosítására, az Alkalmazás működésének a megszüntetésére a Tulajdonos bármikor jogosult, a Felhasználó előzetes értesítése nélkül. Az Alkalmazáshoz való hozzáférést a Tulajdonos bármikor visszavonhatja akár az adott Felhasználóra nézve, akár szélesebb körben vagy teljes körűen előzetes értesítés, figyelmeztetés nélkül.
 
-### Biztonsági teszt (audit):
-Biztonsági tesztelésre akkor van szükség, ha a rendszer szenzitív (pl. személyes vagy pénzügyi) adatokat kezel, vagy szabadon elérhető az internetről. 
-**Módszere:**
-A tesztett egy megbízott külső cég végzi.
 
-### Go live teszt
-A go-live teszt egy próbaélesítés, melynek során a korábbi rendszerek továbbra is üzemelnek annak érdekében, hogy az élesítéskor keletkező problémák ne befolyásolják a normál üzemi működést.
-**Módszere:**
-A próba telepítés a megrendelő által választott webtárhelyen történik, a programot a jövőben üzemeltető adminisztrátorok közreműködésével.
+### Felelősségi szabályok
 
-### Tesztelési feladatok, teszt-esetek leírása
-A tesztelési feladat a következő teszt-eseteket foglalja magában:
-- Fejlesztői teszt
-- Prototípus (modul)
+A Tulajdonos fenntartja magának a jogot arra, hogy amennyiben valamely Felhasználó részéről bármilyen manipulációt, tömegesen generált letöltést, illetve az Alkalmazás szellemével bármilyen módon összeférhetetlen vagy azt sértő magatartást tapasztal, vagy ennek megalapozott gyanúja felmerül, úgy a Felhasználót azonnali hatállyal kizárja az Alkalmazás felhasználói köréből.
 
-## Tesztelési ütemterv, függőségek – tesztforgatókönyv
-### Tesztelési jegyzőkönyv
-A tesztelők a tesztforgatókönyvnek megfelelően elvégzik a tesztelést és az eredményt tesztjegyzőkönyvekben dokumentálják. A teszt kimenetelést minden esetben jelenteni kell a tesztkoordinátornak. A tesztkoordinátor a szakértőkkel együtt megoldást keres a problémákra, majd frissíti a tesztforgatókönyvet. Ha a problémát megoldották, a tesztelő újrakezdheti a tesztelést, majd dokumentálja az eredményeket. Ha a hiba továbbra is fennáll, és harmadik félen múlik a megoldása eszkalálni kell a problémát a projekt menedzsernek. 
+Az Alkalmazáshoz kapcsolódó adatbázis módosítása kizárólag az Üzemeltető által, illetve az Alkalmazást üzemeltető webkiszolgálón keresztül lehetséges. Bármilyen külső, nem az Alkalmazás részeként elérhető eszközzel történő beavatkozás a Felhasználó azonnali kizárását eredményezi.
 
-### Tesztelési jelentés
-A tesztelési jelentést a tesztkoordinátor készíti el. Ez egy részletes áttekintése a lefutott teszteknek, azok eredményeinek, státuszának és a megjegyzéseknek.
-A tesztkoordinátor juttatja el a projektmenedzsernek a tesztelési jelentést. 
+Ha a Felhasználó az Alkalmazást használat közben bezárja, vagy ha a kapcsolat (bármely okból) megszakad a kiszolgáló webhelyével, abban az esetben az adatok elvesztéséért a Tulajdonos semmilyen felelősséget nem vállal. A Tulajdonos és az Üzemeltető a rendelkezésére álló eszközökkel biztosítja, hogy az Alkalmazás használata technikai szempontból biztonságosnak minősüljön. Az Alkalmazáshoz való csatlakozás miatt bekövetkező károkért, az internetes hálózat esetleges üzemkimaradásából, az elérési út hibájából, bármely nem várt technikai hibából eredő adatvesztésért, vírusból, vagy más károkért a Tulajdonos nem felelős. A Felhasználóknak minden esetben fel kell mérniük, hogy rendelkeznek-e az Alkalmazás használatához szükséges ismeretekkel, technikai követelményekkel és teljesítményekkel.
 
-### Tesztelt elvárások 
-Az alábbi funkcionális elvárások szerepelnek az üzleti illetve fejlesztői specifikációban, amelyek tesztelésre is kerültek: 
-> A dokumentum átdolgozás alatt (Hiányzó tesztelési elvárás a üzleti illetve fejlesztői specifikációban).
 
-| #  | Leírás |
-|----|--------|
-| 1. | GUI |
-| 2. | Gameplay |
-| 3. | Design |
+### Technikai követelmények
 
-Az alábbi nem-funkcionális elvárások szerepelnek az üzleti illetve fejlesztői specifikációban, amelyek tesztelésre is kerültek: 
+Az Alkalmazás használatához szükséges technikai feltételek: Android operációs rendszer 4.0.3 vagy későbbi verziójával ellátott mobiltelefon vagy iOS operációs rendszer 9.0 vagy későbbi verziójával ellátott mobiltelefon, valamint minimum 100 MB szabad tárhely és a használathoz megfelelő sávszélességű internetelérés. A technikai feltételeket az Alkalmazás letöltéséhez és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szerver által nyújtott (kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban is.
 
-| #  | Leírás |
-|----|--------|
-| 1. | Felhasználóbarát felület |
-| 2. | Gyors működés |
-| 3. | Optimalizált |
-| 4. | Megbízható |
+Az Alkalmazás telepítéssel, bizonyos funkciói pedig regisztrációt követően vehetők használatba. A telepítés kizárólag a Google Play vagy az Apple App Store felületén keresztül engedélyezett.
 
-### Elfogadási kritériumok
-- Technikai, a teszt forgatókönyvben leírtak szerint.
-- A projekt menedzser jóváhagyása a teszt leszállítandókra
-## Teszt terv
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+Az Alkalmazás verziózott, a mobiltelefonon futó operációs rendszer – beállításoktól függően – rendszeresen keres frissítéseket. Amennyiben az Apple App Store, illetve a Google Play-en elérhető frissítés, az operációs rendszer felajánlja a frissítés lehetőségét. Az Apple App Store, illetve a Google Play és az operációs rendszer működéséért a Tulajdonos semmilyen felelősséggel nem tartozik.
 
-**Tesztelési eljárások**
-- Unit teszt: A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik. 
-Az eljárás sikeres, ha különböző operációs rendszereken megfelelően működnek a különböző funkciók. A teszt időtartama egy hét.
+Mobilkészülék cseréje során az Alkalmazás ismételt letöltése szükséges. Az új letöltés azonban nem igényel újabb regisztrációt és a korábbi, Alkalmazásban tárolt információk is elérhetőek maradnak bejelentkezést követően. Mobiltelefonszám cseréjekor a Felhasználónak nincs teendője az Alkalmazással kapcsolatban.
 
-- Beta teszt: Ezt a tesztet nem a fejlesztők végzik.
-Tesztelendő operációs rendszerek: Windows , Linux , MacOs
-Tesztelendő kijelző méretek: 1280x720 (minimum), 1366x768, 1920x1080
-A teszt időtartama egy hét. 
-A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén. 
-Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
 
-- Tesztelendő funkciók, Backend Service: Képesnek kell lennie menteni a játékos adatait és azokat betölteni  
-Képesnek kell lennie minden felületen elérhető funkciók biztosítására.
+### Regisztráció és tárolt adatok
 
-## Telepítési terv
-A Játékos a web oldalunkat felkeresve a letöltheti. Itt kettő változat közül választhat egy pocket editon közül mely telepítés nélkül működik és rögtön játszható. Teleíthető váltazat varászló segítségével ez a változat végig vezeti a felhasználót a telepítés menetén kényelmesen , meg szokott módon és minden hiányzó programot , .dll telepít. Sikeres telepítés után a játék már rögtön játszható és élvezhető. 
+A regisztráció két módon lehetséges: Facebook azonosító segítségével vagy email cím és jelszó megadásával. A regisztráció során megadott adatok helyességéért a Tulajdonos, illetve az Üzemeltető semminemű felelősséget nem vállal.
 
-## Karbantartási terv
-Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Microsoft Windows verziókkal kompatibilis-e az alkalmazás. A jövőben szükség lehet új hardware implementációra igénynövekedés esetén. Karbantartás Corrective Maintenance: A felhasználók által felfedezett és "user reportban" elküldött hibák kijavítása. Adaptive Maintenance: A program naprakészen tartása és finomhangolása. Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett módosítások, új funkciók, a szoftver teljesítményének és működési megbízhatóságának javítása. Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
+A regisztrációt követően Üzemeltető és/vagy Tulajdonos a Felhasználó részére az Alkalmazás működésével kapcsolatosan, különösen versenyjelentkezéssel kapcsolatos tájékoztatást, visszaigazolást, alkalmazás frissítésével kapcsolatos tájékoztató leveleket küldhet a Felhasználó e-mail címére.
+
+Az Alkalmazás adatbázisából előzetes értesítés nélkül törlésre kerülhet az a Felhasználó, aki az általa megosztott tartalmakkal megsérti harmadik fél személyiségi vagy egyéb jogait, valamint a szerzői jogot, bármilyen Szellemi Tulajdonnal kapcsolatos jogot vagy bármilyen egyéb jogszabály rendelkezéseit, kereskedelmi, üzleti célú hirdetéseket jelenít meg (ún. spam) formájában akár saját profiljával, akár a közösségi felületeken megosztott üzenetekkel, más Felhasználókat zaklat, megfélemlít, rágalmaz saját profiljával. Az Alkalmazás adatbázisából előzetes értesítés nélkül törlésre kerülhet az a Felhasználó is, aki az Alkalmazást saját nevében terjeszti, részben vagy egészben másolja, átdolgozza, a Szellemi Tulajdont bármilyen egyéb módon bitorolja, másolja, azzal visszaél, jogosulatlanul használja az Alkalmazás és a Tulajdonos védjegyeit, kárt tesz az Alkalmazásban bármilyen módon, pl. szoftverek és távközlési berendezések segítségével a jelen Felhasználási Feltételekben foglaltakat bármilyen egyéb módon megszegi.
+
+A Felhasználó bármikor kérheti regisztrációjának törlését írásban a tinderformusic@gmail.hu email címre küldött levélben.
+
+
+### Értesítések
+
+Az Alkalmazás használata során, a beépített üzenetküldő szolgáltatás segítségével értesítéseket kaphat a Felhasználó az Alkalmazással kapcsolatosan. A telepítést követően az első lépésként az Alkalmazás engedélyt kér a rendszerszintű értesítésekhez ezeket lemondani a telefon operációs rendszerének Beállításaiban lehetséges.
+
+
+### Garancia és kártérítés
+
+Az Alkalmazás használatához a felhasználói oldalon szükséges – fent meghatározott vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie. Ezen technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából adódóan, a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szoftver által nyújtott (így kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban. A Tulajdonos nem vállal garanciát az Alkalmazás megszakításmentes működéséért, valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért a Tulajdonos szintén nem tartozik kártérítési felelősséggel.
+
+
+### Egyéb rendelkezések
+
+Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos jogszabályok – különösen, de nem kizárólagosan a Polgári Törvénykönyvről szóló 2013. évi V. törvény, az Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről, az információs önrendelkezési jogról és az információ szabadságról szóló 2011. évi CXII. törvény, a szerzői jogról szóló 1999. évi LXXVI. törvény, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény – rendelkezései az irányadóak.
+
+
+### Kapcsolat
+
+Az Alkalmazás támogatását az Üzemeltető végzi munkanapokon, 9:00 és 17:00 között. Az Alkalmazás működésével kapcsolatban a Felhasználó fejlesztoJatek@mail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol.
+
+## Követelménylista
+
+|   Modul   | ID |  	Név   	 |  Verzió  |
+|-----------|----|---------------|----------|
+|Jogosultság| K1 | Bejelentkezés |1.0|
+|Jogosultság| K2 |Regisztráció	 |1.0|
+|Jogosultság| K3 |Jogosultsági szintek|1.0|
+|Modifikáció| K4 |Felhasználó módosítása|1.0|
+|Modifikáció| K5 |Jelszó módosítása|1.0|
+|Modifikáció| K6 |Elfelejtett felhasználónév/jelszó|1.0|
+|Feladattípus|K7 |Profil	 |1.0|
+
+
+### Kifejtés    
+#### ID
+- K1  A felhasználó az email címe és a jelszava segítségével bejelentkezhet.
+Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
+
+- K2  A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.
+A jelszó tárolása kódolva történik az adatbázisban. Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek,
+akkor a rendszer értesíti erről a felhasználót. 
+
+- K3   Admin-Rendszerhozzáférés, feladatok feltöltése, felhasználók / szerepkörök módosítása.
+Zenész-átlag felhasználó, üzenetek, likeok 
+
+- K4 A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése,
+valamint a felhasználó jelszojának megadása. 
+
+- K5 A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszojának megadása, valamint az új megerősítése.
+
+- K6 Ha a felhasználó elfelejtette a felhasználónevét, vagy jelszavát akkor ezzel az opcióval egy Adminhoz tud fordulni.
+
+- K7 A felhasználónak lehetősége van a profilján található bemutatkozó szöveg módosítására.
+
+
 
